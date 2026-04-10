@@ -1,0 +1,16 @@
+.pcvml-content-inner {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.pcvml-card {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+
+/* 强制表格主体固定高度（至少10行高度），少于10条也不塌陷 */
+.pcvml-table .ant-table-body {
+  min-height: 520px; /* 约 10 行 * 52px */
+  height: 520px;
+}
+

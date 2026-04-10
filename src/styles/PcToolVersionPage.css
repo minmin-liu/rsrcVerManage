@@ -1,0 +1,49 @@
+.pcvm-layout {
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+.pcvm-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background: linear-gradient(90deg, #001529 0%, #06224d 60%, #0a2f63 100%);
+}
+
+.pcvm-header-left {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.pcvm-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.pcvm-content {
+  padding: 24px;
+}
+
+.pcvm-content-inner {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.pcvm-card {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+
+.pcvm-progress {
+  margin-bottom: 16px;
+}
+
+.pcvm-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
